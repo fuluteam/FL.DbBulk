@@ -1,11 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.Data;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.Query.SqlExpressions;
 
 namespace FL.DbBulk
 {
     public interface ISqlBulk
     {
+        IEnumerable<T> Select<T>() where T : class;
+
         /// <summary>
         /// 批量导入数据
         /// </summary>

@@ -15,6 +15,12 @@ namespace FL.DbBulk
             _context = context;
         }
 
+
+        public IEnumerable<T> Select<T>() where T : class
+        {
+            throw new Exception();
+        }
+
         public void Insert(DataTable table)
         {
             if (table == null)

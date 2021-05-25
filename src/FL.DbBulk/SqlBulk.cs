@@ -22,6 +22,16 @@ namespace FL.DbBulk
             }
         }
 
+        public DataTable Select()
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<T> Select<T>() where T : class
+        {
+            throw new NotImplementedException();
+        }
+
         public void Insert(DataTable table)
         {
             _bulk.Insert(table);

@@ -17,6 +17,12 @@ namespace FL.DbBulk
             _context = context;
         }
 
+
+        public IEnumerable<T> Select<T>() where T : class
+        {
+            throw new System.NotImplementedException();
+        }
+
         public void Insert(DataTable table)
         {
             var csv = table.CreateCsv();

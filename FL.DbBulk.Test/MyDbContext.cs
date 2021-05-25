@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using FL.DbBulk.Test.Entity;
+using Microsoft.EntityFrameworkCore;
 
 namespace FL.DbBulk.Test
 {
@@ -8,6 +9,7 @@ namespace FL.DbBulk.Test
         {
         }
 
-        public DbSet<Blog> Blogs { get; set; }
+        // public DbSet<Blog> Blogs { get; set; }
+        public DbSet<MiCatalog> MiCatalogs { get; set; }
     }
 }

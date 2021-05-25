@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{843A7A9E-903
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6363296E-1507-488B-B361-DB18F8FDECCF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL.DbBulk", "src\FL.DbBulk\FL.DbBulk.csproj", "{F026C997-92BB-43BA-8EC7-2D39EB64241C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FL.DbBulk", "src\FL.DbBulk\FL.DbBulk.csproj", "{F026C997-92BB-43BA-8EC7-2D39EB64241C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FL.DbBulk.Test", "FL.DbBulk.Test\FL.DbBulk.Test.csproj", "{898FB0D2-F464-405D-82CB-95AEFF090287}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FL.DbBulk.Test", "FL.DbBulk.Test\FL.DbBulk.Test.csproj", "{898FB0D2-F464-405D-82CB-95AEFF090287}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
