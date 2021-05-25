@@ -14,6 +14,16 @@ using Xunit.Abstractions;
 
 namespace FL.DbBulk.Test
 {
+    /**
+     *批量导入  速度慢
+     * 先在本地导入
+     * 本地到处excel
+     * 代码对应字段
+     * 分批导入  1w 3s
+     *
+     */
+
+
     public class UnitTest1
     {
         private readonly ISqlBulk _bulk;
